@@ -24,7 +24,7 @@ Amazon Simple Storage Service (Amazon S3) enables to create your resources into 
         
         // to begin creating new S3 bucket to upload and host your website
 
-![Homepage-S3](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Home-S3.png)
+![Homepage-S3](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Homepage-S3.png)
 
  ###   Enter bucket name - s3-static-carvilla
 
@@ -44,8 +44,7 @@ _Access Control List are needed for static website hosting in AWS S3 to grant pu
 _Bucket versioning is not required for static website hosting, but it helps to recover previous versions of website files in case of accidental changes or deletions._
 ###     Click on "Create bucket"
 
-![Bucket-created](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Bucket%20created-Successfully.png)
-
+![Bucket-created](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Bucket%20created.png)
 #### Successfully created bucket - s3-static-carvilla
 # Step 3:- Upload your Website for hosting
 _Your S3 bucket is created now you are able to uplod your objects._
@@ -57,8 +56,7 @@ _Your S3 bucket is created now you are able to uplod your objects._
 4. Cross check your selected folder  
 5. Click on "Upload"
 
-![Object-Uploading](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Object%20ready%20to%20upload.png)
-
+![Object-Uploading](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Object%20uploading.png)
 #### Your website folder successfully uploaded.
 # Step 4:- Start website hosting
 _After upload website files and foldres, now you are ready to host website, For the hosting process follow some steps which are mentioned in below-_
@@ -72,7 +70,7 @@ _After upload website files and foldres, now you are ready to host website, For 
 7. Enter required path - index.html
 8. Click on - save changes
 
-![Enable-SWH](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Ststic%20website%20hosting%20enable.png)
+![Enable-SWH](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Enable%20static%20website%20hosting.png)
 
 ##### Now you need enable public access of website objects.  
 # Step 5:- Making Public access Using ACL
@@ -81,14 +79,14 @@ _To give the public access to your website you must need to make public access e
 For the enable public access you need to follow some steps:-
 #### Open bucket
 
-![Bucket-open](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Bucket%20opened.png)
+![Bucket-open](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Bucket%20open.png)
 
 1. Select - Object (your website folder)
 2. Click on - Actions
 3. Scroll down and click on - make public using ACL
 4. Click on - Make public
 
-![Public-access-enable](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Public%20access%20Successfully.png)
+![Public-access-enable](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Public%20access%20enable.png)
 
 #### Now you able to access your website outside the AWS environment.
 # Step 6:- Test Static website 
@@ -104,7 +102,7 @@ _After your full steup you are able to access your website from outside the AWS 
 5. Open new tab/browser and paste copied URL
 6. Check your output(Website homage)
 
-![Output](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Website%20host%20Successfully.png)
+![Output](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Output.png)
 
 #### Your S3 static website hosting is successful!
 # Step 7:- Delete all resources and objects
@@ -122,7 +120,7 @@ Now you  able to delete bucket
 3. Enter bucket name 's3-static-carvilla'
 4. Click on 'Delete bucket'
 
-![Bucket-deleted](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Bucket%20Deleted%20Successfully.png)
+![Bucket-deleted](https://github.com/avinash-jagtap/S3--Hosting-static-website/blob/master/Images/Bucket%20deleted.png)
 
 #### Your S3 bucket is deleted.
 # Summary
